@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget xmlns   = "http://www.w3.org/ns/widgets"  
+<widget xmlns = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.app6"  
-     version  = "1.0.0">  
+     id="com.phonegap.app6"  
+     version = "1.0.0">  
 	 
    <name> app6 Deslizar hacia la izquierda y hacia la derecha</name>  
    
@@ -16,12 +16,12 @@
    </author>  
     
    <!-- Personaliza la aplicacion y plataforma  --> 
-   <preference name="orientation"        value="default" /> 
-    <!-- <preference name="orientation"      value="portrait"/> -->    
-    <!--preference name="orientation"        value="landscape" /> -->
-   <preference name="target-device"       value="universal" />   
-   <preference name="fullscreen"         value="true" />      
-   <preference name="android-installLocation"  value="auto" />  
+   <preference name="orientation"  value="default" /> 
+    <!-- <preference name="orientation" value="portrait"/>   
+    <preference name="orientation" value="landscape" /> -->
+   <preference name="target-device" value="universal" />   
+   <preference name="fullscreen" value="true" />      
+   <preference name="android-installLocation" value="auto"/>  
    <preference name="permissions" value="INTERNET" />
 
 
@@ -33,14 +33,14 @@
 
 <!--<plugin name="cordoba-plugin-geolocation" source="npm"/> -->
 
-<!-- Para accesar a paginas en internet -->
+<!--Para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
-<!--Colocar iconi app-->
+<!--Colocar icono app -->
 
-<icon src="res/android/mdpi.png" />
+<icon src="res/android/mdpi.png"/>
 </widget>
